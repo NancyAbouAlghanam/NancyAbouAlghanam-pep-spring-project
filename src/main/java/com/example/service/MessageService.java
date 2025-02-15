@@ -92,7 +92,7 @@ public class MessageService {
         messageRepository.deleteById(messageId); // Delete the message if it exists
         return true; // Return true if the deletion was successful
      }
-     return false;  // Return false if the message wasn't found
+     return false;
     }
 
     /**
